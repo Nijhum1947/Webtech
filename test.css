@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Product box styling */
+.product-box {
+  display: inline-block;       /* Show boxes in one row */
+  width: 25px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 8px;
+  transition: outline 0.3s ease;
+  text-align: center;          /* Center content inside */
+}
+
+/* Hover outline effect */
+.product-box:hover {
+  outline: 3px solid #007bff;
+  outline-offset: 5px;
+}
+
+/* Product image */
+.smartwatch {
+width:20px;
+}
+.laptop-img{
+  width:30px;
+  height:auto;
+
+}
+
+/* Price styling */
+.price {
+  font-weight: bold;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+/* Buy Now link */
+.buy-link {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-link:hover {
+  background-color: #0056b3;
+}
