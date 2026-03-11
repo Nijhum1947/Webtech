@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Global Tech Connect Event</title>
+<title>Event Registration</title>
 </head>
 
 <body>
 
-<h2>Event Registration</h2>
+<h2>Global Tech Connect - Registration</h2>
 
 <form id="regForm">
 
-<label>Full Name</label><br>
+Full Name:<br>
 <input type="text" id="name">
 <p id="nameError"></p>
 
-<label>Email</label><br>
+Email:<br>
 <input type="text" id="email">
 <p id="emailError"></p>
 
-<label>Company / Institution</label><br>
+Company:<br>
 <input type="text" id="company">
-<p id="companyError"></p>
 
-<label>Attendance Type</label><br>
+<br><br>
+
+Attendance Type:<br>
 <input type="radio" name="attendance" value="Virtual"> Virtual
 <input type="radio" name="attendance" value="In-Person"> In-Person
 <p id="attendanceError"></p>
 
 <br>
+
 <button type="submit">Register</button>
 
 </form>
@@ -42,13 +44,13 @@ Show Event Analytics
 
 <h3>Event Statistics</h3>
 
-<p>Total Registrants: <span id="total">0</span></p>
-<p>Virtual: <span id="virtualCount">0</span></p>
-<p>In-Person: <span id="inpersonCount">0</span></p>
+Total Registrants: <span id="total">0</span><br>
+Virtual: <span id="virtualCount">0</span><br>
+In-Person: <span id="inpersonCount">0</span>
 
 </div>
 
-<script src="script.js"></script>
+<script src="srcipt.js"></script>
 
 </body>
 </html>
